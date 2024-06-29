@@ -16,6 +16,15 @@ find_coins_greedy(113)  # Output: {50: 2, 10: 1, 2: 1, 1: 1}
 
 ```
 
+##Dynamic Programming Algorithm
+The dynamic programming algorithm takes an amount and returns a dictionary with the coin denominations and the number of coins needed to reach the given amount most efficiently. It guarantees the minimum number of coins needed.
+
+### Example
+
+```python
+find_min_coins(113)  # Output: {50: 2, 10: 1, 2: 1, 1: 1}
+```
+
 #Greedy Algorithm
 Advantages: Fast and efficient for large sums, simple to implement.
 Disadvantages: Does not always provide the minimum number of coins, especially if the coin denominations are non-standard.
