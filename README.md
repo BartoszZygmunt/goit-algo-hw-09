@@ -16,7 +16,8 @@ find_coins_greedy(113)  # Output: {50: 2, 10: 1, 2: 1, 1: 1}
 
 ```
 
-##Dynamic Programming Algorithm
+## Dynamic Programming Algorithm
+
 The dynamic programming algorithm takes an amount and returns a dictionary with the coin denominations and the number of coins needed to reach the given amount most efficiently. It guarantees the minimum number of coins needed.
 
 ### Example
